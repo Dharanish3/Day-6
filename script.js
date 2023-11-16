@@ -106,6 +106,29 @@ console.log(method.salary)
 
 
 
+/*---------------------------------------------- */
+
+
+
+// 4.write a class to calculate the uber price.
+class UberPrice {
+    constructor (kilometer , price=30){
+        this.kilometer = kilometer;
+        this.price = price;
+        
+    }
+    get Price (){
+        return this.kilometer * this.price
+    }
+}
+
+var uber = new UberPrice(3 , 70)
+var uber2 = new UberPrice(3 )
+console.log(uber.Price)
+console.log(uber2.Price)
+
+
+
 
 
 
